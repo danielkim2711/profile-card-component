@@ -14,9 +14,9 @@
 }
 
 body {
-  background: url('./images/bg-pattern-top.svg') no-repeat,
-    url('./images/bg-pattern-bottom.svg') repeat;
-  background-size: 1000px, 1000px;
+  background: url('./images/bg-pattern-top.svg') top -60% left 150% no-repeat,
+    url('./images/bg-pattern-bottom.svg') bottom -60% right 150% no-repeat;
+  background-size: 600px, 600px;
   background-color: var(--dark-cyan);
   margin: 0;
   padding: 0;
