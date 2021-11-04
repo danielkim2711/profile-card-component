@@ -35,7 +35,7 @@ body {
   background-color: #fff;
   background-position: top;
   /* border: 2px solid black; */
-  height: 430px;
+  height: 380px;
   width: 100%;
   max-width: 330px;
   position: relative;
@@ -44,7 +44,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  box-shadow: 1px 1px 3px #000;
+  box-shadow: 0 0 3px #000;
 }
 
 .profile__image {
@@ -79,6 +79,10 @@ body {
   align-items: flex-end;
   border-top: 1px solid lightgrey;
   /* border: 1px solid red; */
+}
+
+.stats h2 {
+  font-size: 18px;
 }
 
 .stats--margin {
