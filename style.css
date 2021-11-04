@@ -85,6 +85,10 @@ body {
   font-size: 18px;
 }
 
+.stats p {
+  font-size: 14px;
+}
+
 .stats--margin {
   margin: 0 1rem;
 }
